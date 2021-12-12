@@ -1,0 +1,16 @@
+@import "../Utilities/variables";
+
+header {
+    background: {
+        color: $desaturated-dark-cyan;
+    };
+    height: 156px;
+    width: 100%;
+    overflow-x: hidden;
+
+    img {
+        object-fit: cover;
+        width: inherit;
+        height: inherit;
+    }
+}
